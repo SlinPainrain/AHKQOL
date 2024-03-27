@@ -1,4 +1,4 @@
-﻿; Hotkey definieren (hier: Strg + Alt + P)
+﻿; Hotkey definieren
 ScrollLock & Enter::
     ; Überprüfen, ob Chrome läuft
     if WinExist("ahk_exe chrome.exe")
