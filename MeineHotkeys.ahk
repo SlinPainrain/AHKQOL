@@ -3,7 +3,6 @@
 SendMode Input  ; Empfohlener Sendemodus für Tasten und Maus
 
 ScrollLock & ö::'
-ScrollLock & o::send, ^a
 ScrollLock & p::?
 ScrollLock & q::@
 ScrollLock & n::(
@@ -25,4 +24,4 @@ ScrollLock & ,::;
 ScrollLock & g::<
 ScrollLock & h::>
 ScrollLock & u::\
-ScrollLock & i::"
+ScrollLock & o::"
