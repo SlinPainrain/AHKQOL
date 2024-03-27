@@ -24,6 +24,6 @@ ScrollLock & t::!
 ScrollLock & ,::;
 ScrollLock & g::<
 ScrollLock & h::>
-ScrollLock & u::\
+ScrollLock & i::\
 ScrollLock & o::"
 ScrollLock & ALT:: SendInput, ^{Backspace} ; Sende Strg + Backspace
