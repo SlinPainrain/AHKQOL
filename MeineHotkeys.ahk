@@ -1,5 +1,6 @@
 #NoEnv  ; Empfohlen für die Leistung und Kompatibilität
 #Persistent  ; Hält das Skript auch nach dem Ausführen von anderen Skripten aktiv
+#SingleInstance Force
 SendMode Input  ; Empfohlener Sendemodus für Tasten und Maus
 
 ScrollLock & ö::'
@@ -25,3 +26,4 @@ ScrollLock & g::<
 ScrollLock & h::>
 ScrollLock & u::\
 ScrollLock & o::"
+ScrollLock & ALT:: SendInput, ^{Backspace} ; Sende Strg + Backspace
