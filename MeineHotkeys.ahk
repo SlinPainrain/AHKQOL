@@ -1,0 +1,28 @@
+#NoEnv  ; Empfohlen für die Leistung und Kompatibilität
+#Persistent  ; Hält das Skript auch nach dem Ausführen von anderen Skripten aktiv
+SendMode Input  ; Empfohlener Sendemodus für Tasten und Maus
+
+ScrollLock & ö::'
+ScrollLock & o::send, ^a
+ScrollLock & p::?
+ScrollLock & q::@
+ScrollLock & n::(
+ScrollLock & m::)
+ScrollLock & f::=
+ScrollLock & j::{	
+ScrollLock & k::}
+ScrollLock & ü::Send, {BACKSPACE}
+ScrollLock & 8::[
+ScrollLock & 9::]
+ScrollLock & -::_
+ScrollLock & v::SendInput, {ASC 037}
+ScrollLock & d::/
+ScrollLock & w::+
+ScrollLock & .:::
+ScrollLock & e::*
+ScrollLock & t::!
+ScrollLock & ,::;
+ScrollLock & g::<
+ScrollLock & h::>
+ScrollLock & u::\
+ScrollLock & i::"
