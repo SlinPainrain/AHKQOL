@@ -15,7 +15,8 @@ ScrollLock & ü::Send, {BACKSPACE}
 ScrollLock & 8::[
 ScrollLock & 9::]
 ScrollLock & -::_
-ScrollLock & v::SendInput, {ASC 037}
+ScrollLock & v::SendInput, >
+ScrollLock & c::SendInput, <
 ScrollLock & d::/
 ScrollLock & w::+
 ScrollLock & .:::
